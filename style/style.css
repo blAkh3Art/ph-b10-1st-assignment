@@ -9,6 +9,15 @@
 body{
     font-family: "Azeret Mono",monospace;
 }
+
+html {
+    scroll-behavior: smooth;
+   }
+
+#footer{
+    margin-top: 100%;
+}
+
 /* Navigation Bar Style */
 
 .nav-name{
@@ -102,6 +111,11 @@ header{
     font-size: 15px;
     font-weight: 600;
     text-align: center;
+}
+
+.btn-contact a{
+    text-decoration: none;
+    color: white;
 }
 
 /* Banner Section End */
