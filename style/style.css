@@ -234,3 +234,88 @@ iframe{
 }
 
 /* Inspiration Section End */
+
+/* Target Section */
+
+.target-section{
+    width: 80%;
+    min-height: 463px;
+    margin: 0 auto;
+    margin-top: 145px;
+}
+
+.target-heading{
+    text-align: center;
+}
+
+.target-heading h2{
+    color: rgb(13, 19, 30);
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.target-heading p{
+    margin-top: 25px;
+    color: rgb(13, 19, 30);
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.target-details{
+    margin-top: 45px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.target-details a{
+    color: rgb(13, 19, 30);
+    font-size: 15px;
+    font-weight: 700;
+    width: 90%;
+}
+
+.html{
+    border-radius: 18px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 50px;
+}
+
+.html p{
+    padding: 20px 0;
+}
+
+.html img{
+    padding-bottom: 20px;
+}
+
+.css{
+    border-radius: 18px;
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 50px;
+}
+
+.css img{
+    padding-bottom: 20px;
+}
+
+.css p{
+    padding: 20px 0;
+}
+
+.javascript{
+    border-radius: 18px;
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 50px;
+}
+
+.javascript img{
+    padding-bottom: 20px;
+}
+
+.javascript p{
+    padding: 20px 0;
+}
+
+/* Target Section End */
