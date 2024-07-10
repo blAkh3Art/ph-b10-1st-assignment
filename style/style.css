@@ -148,6 +148,7 @@ header{
     width: 80%;
     margin: 0 auto;
     padding-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .feed-container{
@@ -190,3 +191,46 @@ header{
 }
 
 /* Feed Section End */
+
+/* Inspiration Section Style */
+
+.inspiration{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+.inspiration-title {
+    color: rgb(13, 19, 30);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+.inspiration-text{
+    color: rgb(13, 19, 30);
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    line-height: 26px;
+    max-width: 80%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.video{
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+iframe{
+    border: 0.1px inset;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* Inspiration Section End */
